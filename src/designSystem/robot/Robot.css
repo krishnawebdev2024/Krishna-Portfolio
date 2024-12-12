@@ -1,0 +1,18 @@
+/* Ensure the robot container occupies full screen */
+.robot-container {
+  width: 40%; /* Ensure the container takes the full width */
+  height: 50vh; /* 50% of the viewport height */
+  /* Dark background for visibility */
+  display: flex;
+  justify-content: center; /* Center the canvas horizontally */
+  align-items: flex-end; /* Align the canvas to the bottom */
+  position: relative;
+  overflow: hidden; /* Optional: Prevent scrolling */
+}
+
+/* Optional: Adding some basic style to the Canvas container */
+.robot-container canvas {
+  width: 100%;
+  height: 100%; /* Make the canvas fill the container */
+  /* Dark background for visibility */
+}
