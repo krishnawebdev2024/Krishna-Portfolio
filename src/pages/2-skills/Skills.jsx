@@ -12,7 +12,7 @@ const skills = [
   "Restful APIs",
   "Unit Testing",
   "Agile Tools and Methodologies and Node.js",
-  "SCRUM (JIRA & Confluence)",
+  "SCRUM ",
   "Adobe Photoshop, Premiere Pro & Illustrator",
   "Blender",
   "UI and UX",
