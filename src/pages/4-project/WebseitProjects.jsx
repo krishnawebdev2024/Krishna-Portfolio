@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FiExternalLink } from "react-icons/fi";
 
 // Import project thumbnails
-import DiaryData from "../../assets/projects/DiaryData.png";
+import Diarydata from "../../assets/projects/Diarydata.png";
 import ECommerceStore from "../../assets/projects/ECommerceStore.png";
 import Medicare from "../../assets/projects/Medicare.png";
 import MemeGenerator from "../../assets/projects/MemeGenerator.png";
@@ -70,7 +70,7 @@ const projects = [
     title: "Tagebuch-Daten",
     description:
       "Eine persönliche Tagebuch-App, um Ihre Gedanken festzuhalten.",
-    thumbnail: DiaryData,
+    thumbnail: Diarydata,
     link: "https://diarydata.onrender.com/",
   },
 ];
