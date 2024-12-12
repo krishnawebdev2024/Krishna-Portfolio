@@ -3,15 +3,15 @@ import { motion } from "framer-motion";
 import { FiMaximize } from "react-icons/fi";
 import Modal from "./Modal"; // Importing the modal component for the PDF view
 
-import Abschluss from "../../assets/EducationalCertificates/abschluss.pdf";
-import FullStackWBS from "../../assets/EducationalCertificates/FullStackWBS .pdf";
-import Hochschulreife from "../../assets/EducationalCertificates/hochschulreife.pdf";
-import SprachCertificate from "../../assets/EducationalCertificates/sprachCertificate.pdf";
+import Abschluss from "../../assets/EducationalCertificates/Abschluss.pdf";
+import FullStackWBS from "../../assets/EducationalCertificates/FullStackWBS.pdf";
+import Hochschulreife from "../../assets/EducationalCertificates/Hochschulreife.pdf";
+import SprachCertificate from "../../assets/EducationalCertificates/SprachCertificate.pdf";
 
-import Abschluss1 from "../../assets/EducationalCertificates/abschluss1.png";
+import Abschluss1 from "../../assets/EducationalCertificates/Abschluss1.png";
 import FullStackWBS1 from "../../assets/EducationalCertificates/FullStackWBS1.png";
-import Hochschulreife1 from "../../assets/EducationalCertificates/hochschulreife1.png";
-import SprachCertificate1 from "../../assets/EducationalCertificates/sprachCertificate1.png";
+import Hochschulreife1 from "../../assets/EducationalCertificates/Hochschulreife1.png";
+import SprachCertificate1 from "../../assets/EducationalCertificates/SprachCertificate1.png";
 
 // Example certificate data
 const certificates = [
