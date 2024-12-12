@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
 import ThemeToggleButton from "./navMechanism/ThemeToggleButton.jsx";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/Logo.png";
 
 const NavBar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
