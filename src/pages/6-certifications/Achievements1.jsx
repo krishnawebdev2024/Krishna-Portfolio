@@ -5,8 +5,8 @@ import { FaFilePdf } from "react-icons/fa"; // Font Awesome PDF icon
 
 import Modal from "./Modal"; // Importing the modal component for the PDF view
 
-import Fullstack from "../../assets/certificates/fullstack.pdf";
-import Deployment from "../../assets/certificates/deployment.pdf";
+import Fullstack from "../../assets/certificates/Fullstack.pdf";
+import Deployment from "../../assets/certificates/Deployment.pdf";
 import AI from "../../assets/certificates/AI.pdf";
 import Git from "../../assets/certificates/Git.pdf";
 import SQL from "../../assets/certificates/SQL.pdf";
