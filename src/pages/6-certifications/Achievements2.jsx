@@ -111,7 +111,7 @@ const CertificateCard = ({ title, organization, pdf, image, onView }) => {
           onClick={onView}
           className="inline-flex items-center justify-center gap-2 text-sm font-medium mt-2 text-primary dark:text-neutralLight bg-neutralLight dark:bg-primary px-4 py-2 rounded-md shadow-sm hover:shadow-lg hover:ring-2 hover:ring-primary dark:hover:ring-neutralLight transition-all duration-300"
         >
-          View Certificate
+          Zertifikat einsehen
           <FiMaximize className="text-lg" />
         </button>
       </div>
