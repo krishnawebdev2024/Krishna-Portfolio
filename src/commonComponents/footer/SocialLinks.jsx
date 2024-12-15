@@ -15,7 +15,7 @@ const SocialLinks = () => {
   };
 
   return (
-    <div className="text-sm  gap-8 text-primary flex flex-row">
+    <div className="text-sm  gap-8 text-white flex flex-row">
       {socialMediaLinks.map((link, index) => (
         <button
           key={index}
