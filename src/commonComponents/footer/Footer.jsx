@@ -35,11 +35,7 @@ const Footer = () => {
           <div className="w-full h-[1px] bg-slate-400 my-8 mx-auto" />
         </div>
         {/* Social media icons section */}
-        <div className="mb-8">
-          <p className=" text-sm font-medium text-darkText mb-1">Socials</p>
-          <SocialLinks />
-        </div>
-        <div className="w-full h-[1px] bg-slate-400 my-2 mx-auto" />
+
         <div className=" flex flex-row md:flex-row items-center justify-between  text-white mb-10">
           <div className="flex flex-col      ">
             <p className=" text-sm font-medium text-darkText mb-1">Version:</p>
