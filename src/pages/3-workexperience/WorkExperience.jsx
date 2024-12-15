@@ -9,7 +9,7 @@ const CareerCards = ({ data }) => {
       <p className="text-3xl font-bold pt-12 pb-8 text-center text-headingPrimary dark:text-headingSecondary md:text-4xl lg:pb-12">
         Berufliche Stationen und Kompetenzen
       </p>
-      <div className="grid gap-8 sm:gap-10 md:gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+      <div className="grid gap-8 sm:gap-10 md:gap-12 grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2">
         {data.map((item, index) => (
           <div
             key={index}
@@ -73,7 +73,7 @@ const careerData = [
     `,
     highlights: [
       "Erstellung skalierbarer Web- und App-Lösungen mit modernen Technologien.",
-      "Vertiefung von Fähigkeiten in React, Node.js und Tailwind CSS.",
+      "Vertiefung von Fähigkeiten in React, Node.js und Tailwind CSS sowie SQL- und NoSQL-Datenbanken..",
       "Zusammenarbeit mit Mentoren und einer Community für kontinuierliches Lernen.",
     ],
   },

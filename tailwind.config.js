@@ -6,65 +6,64 @@ export default {
     extend: {
       colors: {
         // Background colors
-        lightBackground: "#F4F4F4",
-        darkBackground: "#262331",
-        //darkBackground: "#252525",
-        cardDarkBackground: "#342F43",
-        backgroundAlt: "#f3f4f6",
-        darkBackgroundAlt: "#2d3748",
+        lightBackground: "#F4F6F9", // Soft, neutral light background for a clean look
+        darkBackground: "#1F2937", // Dark, muted blue-gray for a professional, elegant background
+        cardDarkBackground: "#2D3748", // Deep slate for card backgrounds
+        backgroundAlt: "#F9FAFB", // Light and fresh background for alternative areas
+        darkBackgroundAlt: "#1E2A3A", // Slightly deeper blue-gray for variety
 
         // Foreground colors
-        lightForeground: "#696773",
-        darkForeground: "#FEFEFF",
+        lightForeground: "#4B5563", // Muted gray with a touch of blue for non-dominant elements
+        darkForeground: "#FFFFFF", // Crisp white for high contrast text
 
         // Text colors
-        lightText: "#1a202c",
-        darkText: "#f9fafb",
-        textMuted: "#6b7280",
-        textPlaceholder: "#9ca3af",
+        lightText: "#2F3C48", // Dark gray with subtle blue undertones for text
+        darkText: "#F1F5F9", // Soft, off-white text for readability on dark backgrounds
+        textMuted: "#6B7280", // Medium gray for secondary text
+        textPlaceholder: "#A0AEC0", // Muted gray for placeholder text
 
         // Primary and secondary
-        primary: "#FD853A",
-        secondary: "#d97706",
+        primary: "#4C51BF", // A rich, deep blue for primary accents (more professional and modern)
+        secondary: "#7F9CF5", // Soft, pastel blue to complement primary color
 
         // Success, error, warning, info
-        success: "#10b981",
-        error: "#ef4444",
-        warning: "#f59e0b",
-        info: "#3b82f6",
+        success: "#38A169", // Strong green for success messages
+        error: "#E53E3E", // Vibrant red for error states
+        warning: "#F6AD55", // Warm, approachable orange for warnings
+        info: "#63B3ED", // Soft blue for informational messages
 
         // Neutral colors
-        neutralLight: "#e5e7eb",
-        neutral: "#9ca3af",
-        neutralDark: "#374151",
+        neutralLight: "#FFFFFF", // Clean, neutral white for sections with minimal visual weight
+        neutral: "#E2E8F0", // Light gray for subtle background or less emphasized elements
+        neutralDark: "#2D3748", // Deep gray for darker accents
 
         // Buttons
-        buttonHover: "#6366f1",
-        buttonFocus: "#4338ca",
-        buttonDisabled: "#a5b4fc",
+        buttonHover: "#434190", // Hover effect with a darker, richer blue
+        buttonFocus: "#3C366B", // Focus color for buttons with a deeper purple-blue
+        buttonDisabled: "#E4E8F0", // Light grayish-blue for disabled state
 
         // Borders
-        borderLight: "#e2e8f0",
-        borderDark: "#4a5568",
+        borderLight: "#E2E8F0", // Subtle, soft light borders for clean separations
+        borderDark: "#4A5568", // Darker, grayish borders for subtle contrasts
 
         // Gradients
-        gradientStart: "#4f46e5",
-        gradientEnd: "#d97706",
+        gradientStart: "#5A67D8", // A deep, rich blue for gradient start
+        gradientEnd: "#A0B1F3", // Light, muted blue for gradient end
 
         // Overlays
-        overlayLight: "rgba(249, 250, 251, 0.8)",
-        overlayDark: "rgba(26, 32, 44, 0.8)",
+        overlayLight: "rgba(255, 255, 255, 0.7)", // Light overlay for modals, etc.
+        overlayDark: "rgba(31, 41, 55, 0.7)", // Dark overlay for modals, etc.
 
         // Accents
-        accent: "#ec4899",
+        accent: "#D53F8C", // Bold accent color for key buttons or highlights
 
-        //Headings
-        headingPrimary: "#1e293b",
-        headingSecondary: "#f9fafb",
+        // Headings
+        headingPrimary: "#1A202C", // Strong, dark gray for primary headings
+        headingSecondary: "#EDF2F7", // Light, almost white, for secondary headings
 
         // Branding (if applicable)
-        brandPrimary: "#1e40af",
-        brandSecondary: "#e11d48",
+        brandPrimary: "#2B6CB0", // Professional blue for brand elements
+        brandSecondary: "#C53030", // Warm red for impactful brand accents
       },
 
       spacing: {

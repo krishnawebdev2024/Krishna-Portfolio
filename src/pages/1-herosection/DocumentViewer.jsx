@@ -4,7 +4,8 @@ import { FiMaximize } from "react-icons/fi";
 import Modal from "./Modal"; // Importing the modal component for the PDF view
 
 // Importing PDFs
-import Resume from "../../assets/resume/Resume.pdf";
+import ResumeEnglish from "../../assets/resume/ResumeEnglish.pdf";
+import ResumeDeutsch from "../../assets/resume/ResumeDeutsch.pdf";
 import Zwischenzeugnis from "../../assets/resume/Zwischenzeugnis.pdf";
 
 const DocumentViewer = () => {
@@ -12,13 +13,19 @@ const DocumentViewer = () => {
 
   return (
     <div className="p-6 sm:p-8 md:px-16 lg:px-24 xl:px-32  dark:bg-darkBackground h-full">
-      <div className="grid gap-8 sm:gap-10 md:gap-12 grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+      <div className="grid gap-8 sm:gap-10 md:gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {/* Resume Card */}
         <DocumentCard
-          title="Resume"
+          title="Lebenslauf-Englisch"
           description="My professional resume."
-          pdf={Resume}
-          onView={() => setSelectedPdf(Resume)}
+          pdf={ResumeEnglish}
+          onView={() => setSelectedPdf(ResumeEnglish)}
+        />
+        <DocumentCard
+          title="Lebenslauf-Deutsch"
+          description="My professional resume."
+          pdf={ResumeDeutsch}
+          onView={() => setSelectedPdf(ResumeDeutsch)}
         />
 
         {/* Zwischenzeugnis Card */}
@@ -33,7 +40,7 @@ const DocumentViewer = () => {
         <div className="relative group rounded-lg overflow-hidden shadow-sm bg-lightBackground dark:bg-cardDarkBackground transition-all duration-200 flex flex-col justify-between">
           <div className="p-4">
             <h3 className="text-xl font-semibold text-lightText dark:text-darkText transition-all duration-300 z-10">
-              Let's get in touch!
+              Lassen Sie uns in Kontakt treten!
             </h3>
           </div>
           <div className="p-4">
@@ -43,7 +50,7 @@ const DocumentViewer = () => {
               }
               className="inline-flex items-center justify-center gap-2 text-sm font-medium mt-2 text-primary dark:text-neutralLight bg-neutralLight dark:bg-primary px-4 py-2 rounded-md shadow-sm hover:shadow-lg hover:ring-2 hover:ring-primary dark:hover:ring-neutralLight transition-all duration-300"
             >
-              Contact Me
+              Kontaktieren Sie mich
             </button>
           </div>
         </div>
