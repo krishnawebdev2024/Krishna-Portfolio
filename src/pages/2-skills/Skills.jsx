@@ -3,19 +3,24 @@ import RobotModel from "../../designSystem/robot/RobotModel.jsx";
 import { FiMaximize } from "react-icons/fi";
 
 const skills = [
-  "HTML5, CSS3 and Responsive Web Design",
-  "Frontend Programming with JavaScript/React",
-  "Backend Programming with Node.js (Express)",
-  "Version Control Systems (Git & GitHub)",
+  "HTML5 - CSS3 - JavaScript / React",
+  "Node.js (Express)",
+  "Tailwind CSS",
+
+  "MySQL",
+  "PostgreSQL",
+  "React Native",
+  "Git and GitHub",
+
   "Generative AI Integration",
-  "Databases (SQL, NoSQL)",
+
   "Restful APIs",
   "Unit Testing",
-  "Agile Tools and Methodologies and Node.js",
+
   "SCRUM ",
   "Adobe Photoshop, Premiere Pro & Illustrator",
   "Blender",
-  "UI and UX",
+  "UI -Figma-Design und Prototyping",
 ];
 
 const Skills = () => {

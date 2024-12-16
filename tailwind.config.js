@@ -25,6 +25,8 @@ export default {
         // Primary and secondary
         primary: "#4C51BF", // A rich, deep blue for primary accents (more professional and modern)
         secondary: "#7F9CF5", // Soft, pastel blue to complement primary color
+        "primary-light": "#f7f7f7", // Light mode primary color
+        "primary-dark": "#2c3e50", // Dark mode primary color
 
         // Success, error, warning, info
         success: "#38A169", // Strong green for success messages
